@@ -8,14 +8,14 @@ import Logo from "../images/logo.svg"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <section className="relative flex flex-wrap min-h-screen">
+    <section className="relative flex flex-wrap text-center">
       <img
         src={MobileIllustration}
         alt="Developers are people too illustration"
         className="w-full"
       />
-      <div className="mt-8 w-full container px-8">
-        <h1 className="font-mono font-bold tracking-widest uppercase text-brand-blue-lighter text-center">
+      <div className="mt-8 w-full container px-8 sm:max-w-lg sm:mx-auto">
+        <h1 className="font-mono font-bold tracking-widest uppercase text-brand-blue-lighter sm:text-lg">
           coming soon
         </h1>
         <img
@@ -23,17 +23,17 @@ const IndexPage = () => (
           alt="Developers are people too logo"
           className="block mt-5 h-auto w-full mx-auto"
         />
-        <p className="mt-6 text-xs font-mono text-brand-gray leading-5 text-center">
+        <p className="mt-6 sm:mt-8 font-mono text-brand-gray leading-6 ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitatio.
         </p>
-        <h2 className="mt-10 font-bold text-brand-blue text-2xl text-center">
+        <h2 className="mt-10 font-bold text-brand-blue text-2xl sm:text-3xl">
           Join the community
         </h2>
-        <form action="POST" netlify="true">
+        <form name="sign up" action="POST" data-netlify="true">
           <label className="block w-full relative">
-            <span className="block text-xs text-brand-gray text-center mt-1 font-mono">
+            <span className="block text-xs sm:text-sm text-brand-gray  mt-1 font-mono">
               Recieve a notification when we launch
             </span>
             <input
@@ -51,10 +51,6 @@ const IndexPage = () => (
         </form>
       </div>
     </section>
-    <span
-      className="absolute inset-x-0 h-8 bg-brand-blue-darker"
-      role="presentation"
-    ></span>
   </Layout>
 )
 
