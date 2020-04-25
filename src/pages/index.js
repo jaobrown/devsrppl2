@@ -12,7 +12,7 @@ const IndexPage = () => (
       <img
         src={MobileIllustration}
         alt="Developers are people too illustration"
-        className="w-full"
+        className="w-full lg:-mt-20"
       />
       <div className="mt-8 w-full container px-8 sm:max-w-lg sm:mx-auto">
         <h1 className="font-mono font-bold tracking-widest uppercase text-brand-blue-lighter sm:text-lg">
@@ -23,7 +23,7 @@ const IndexPage = () => (
           alt="Developers are people too logo"
           className="block mt-5 h-auto w-full mx-auto"
         />
-        <p className="mt-6 sm:mt-8 font-mono text-brand-gray leading-6 ">
+        <p className="mt-6 text-sm sm:mt-8 font-mono text-brand-gray leading-5 ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitatio.
@@ -33,7 +33,7 @@ const IndexPage = () => (
         </h2>
         <form name="sign up" action="POST" data-netlify="true">
           <label className="block w-full relative">
-            <span className="block text-xs sm:text-sm text-brand-gray  mt-1 font-mono">
+            <span className="block text-sm text-brand-gray  mt-1 font-mono">
               Recieve a notification when we launch
             </span>
             <input
