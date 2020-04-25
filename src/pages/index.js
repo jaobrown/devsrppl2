@@ -8,13 +8,13 @@ import Logo from "../images/logo.svg"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <section className="relative flex flex-wrap">
+    <section className="relative flex flex-wrap min-h-screen">
       <img
         src={MobileIllustration}
         alt="Developers are people too illustration"
         className="w-full"
       />
-      <div className="mt-8 w-full container px-4">
+      <div className="mt-8 w-full container px-8">
         <h1 className="font-mono font-bold tracking-widest uppercase text-brand-blue-lighter text-center">
           coming soon
         </h1>
