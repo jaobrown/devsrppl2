@@ -35,11 +35,15 @@ const IndexPage = () => (
           Recieve a notification when we launch
         </p>
         <form
-          name="Sign Up Form"
-          method="POST"
+          name="signup"
+          method="post"
+          action="/success"
           data-netlify="true"
+          data-netlify-honeypot="bot-field"
           className="lg:max-w-lg lg:mx-auto xl:mx-0 xl:max-w-sm flex mt-6 mb-10 xl:mb-0"
         >
+          <input type="hidden" name="bot-field" />
+          <input type="hidden" name="form-name" value="signup" />
           <label className="block w-full relative">
             <input
               type="email"
