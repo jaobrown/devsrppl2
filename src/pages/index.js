@@ -9,13 +9,13 @@ import Logo from "../images/logo.svg"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <section className="relative flex flex-wrap text-center xl:text-left pb-12 xl:p-0 xl:items-center xl:h-screen">
+    <section className="relative flex flex-wrap text-center xl:text-left pb-12 xl:pb-0 xl:pl-32 xl:items-center xl:h-screen">
       <img
         src={MobileIllustration}
         alt="Developers are people too illustration"
         className="w-full lg:-mt-20 xl:hidden"
       />
-      <div className="mt-8 xl:mt-0 w-full container px-8 sm:max-w-lg sm:mx-auto lg:max-w-2xl xl:max-w-xl xl:mx-0 xl:pl-16">
+      <div className="mt-8 lg:mt-16 xl:mt-0 w-full container px-8 sm:max-w-lg sm:mx-auto lg:max-w-2xl xl:max-w-xl xl:mx-0">
         <h1 className="font-mono font-bold tracking-widest uppercase text-brand-blue-lighter sm:text-lg lg:text-3xl xl:text-base">
           coming soon
         </h1>
