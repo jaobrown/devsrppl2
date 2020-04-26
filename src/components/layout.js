@@ -1,7 +1,12 @@
 import React from "react"
 
 const Layout = ({ children }) => {
-  return <main className="relative">{children}</main>
+  return (
+    <div className="relative min-h-screen xl:h-screen xl: overflow-y-hidden">
+      <main>{children}</main>
+      <footer className="absolute bottom-0 inset-x-0 bg-brand-blue-darker h-12"></footer>
+    </div>
+  )
 }
 
 export default Layout
