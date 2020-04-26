@@ -43,6 +43,7 @@ const IndexPage = () => (
           <label className="block w-full relative">
             <input
               type="email"
+              name="email"
               className="bg-white focus:outline-none focus:shadow-outline border-4 border-brand-teal rounded-tl-sm rounded-bl-sm h-12 px-4 block w-full appearance-none leading-normal font-mono text-sm"
               placeholder="john@example.com"
             />
