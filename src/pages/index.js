@@ -32,7 +32,8 @@ const IndexPage = () => (
           Join the community
         </h2>
         <form
-          name="sign up"
+          name="Sign Up Form"
+          method="POST"
           data-netlify="true"
           className="lg:max-w-lg lg:mx-auto xl:mx-0 xl:max-w-sm"
         >
