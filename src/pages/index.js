@@ -31,28 +31,28 @@ const IndexPage = () => (
         <h2 className="mt-10 font-bold text-brand-blue text-2xl sm:text-3xl lg:text-4xl lg:mt-16 xl:mt-10 xl:text-xl">
           Join the community
         </h2>
+        <p className="block text-sm text-brand-gray  mt-1 font-mono lg:text-lg xl:text-base">
+          Recieve a notification when we launch
+        </p>
         <form
           name="Sign Up Form"
           method="POST"
           data-netlify="true"
-          className="lg:max-w-lg lg:mx-auto xl:mx-0 xl:max-w-sm"
+          className="lg:max-w-lg lg:mx-auto xl:mx-0 xl:max-w-sm flex mt-6 mb-10 xl:mb-0"
         >
           <label className="block w-full relative">
-            <span className="block text-sm text-brand-gray  mt-1 font-mono lg:text-lg xl:text-base">
-              Recieve a notification when we launch
-            </span>
             <input
               type="email"
-              className="block bg-white mt-6 mb-10 xl:mb-0 focus:outline-none focus:shadow-outline border-4 border-brand-teal rounded-sm h-12 px-4 block w-full appearance-none leading-normal font-mono text-sm"
+              className="bg-white focus:outline-none focus:shadow-outline border-4 border-brand-teal rounded-tl-sm rounded-bl-sm h-12 px-4 block w-full appearance-none leading-normal font-mono text-sm"
               placeholder="john@example.com"
             />
-            <button
-              type="submit"
-              className="absolute bottom-0 right-0 h-12 bg-brand-teal rounded-tr-sm rounded-br-sm text-center px-4 text-brand-blue uppercase font-bold tracking-widest text-xs xl:px-8"
-            >
-              sign up
-            </button>
           </label>
+          <button
+            type="submit"
+            className="h-12 bg-brand-teal rounded-tr-sm rounded-br-sm text-center px-4 text-brand-blue uppercase font-bold tracking-widest text-xs xl:px-8"
+          >
+            sign&nbsp;up
+          </button>
         </form>
       </div>
       <img
