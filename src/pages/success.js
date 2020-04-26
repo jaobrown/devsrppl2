@@ -8,7 +8,7 @@ import Logo from "../images/logo.svg"
 
 const SuccessPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Thanks, pal" />
     <section className="relative flex flex-wrap text-center xl:text-left pb-12 xl:pb-0 xl:pl-32 xl:items-center xl:h-screen">
       <img
         src={MobileIllustration}

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Tailwind Starter`,
-    description: `A simple simple, empty gatsby + tailwind + purgecss starter.`,
+    title: `Developers are People Too`,
+    description: `Website for Developers are People Too`,
     author: `@jaobrown`,
   },
   plugins: [
