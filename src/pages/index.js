@@ -24,15 +24,15 @@ const IndexPage = () => (
           alt="Developers are people too logo"
           className="block mt-5 h-auto w-full mx-auto xl:mx-0 xl:max-w-sm"
         />
-        <p className="mt-6 text-sm sm:mt-8 font-mono text-brand-gray leading-5 lg:mt-10 xl:mt-4 lg:text-xl lg:leading-8 xl:text-base xl:leading-6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna.
+        <p className="mt-6 text-sm sm:mt-8 font-mono text-brand-gray leading-5 lg:mt-10 xl:mt-4 lg:text-xl lg:leading-8 xl:text-base xl:leading-6 xl:max-w-sm">
+          There's a barrier between developers and the teams around us. Lets
+          knock it down.
         </p>
         <h2 className="mt-10 font-bold text-brand-blue text-2xl sm:text-3xl lg:text-4xl lg:mt-16 xl:mt-10 xl:text-xl">
           Join the community
         </h2>
         <p className="block text-sm text-brand-gray  mt-1 font-mono lg:text-lg xl:text-base">
-          Recieve a notification when we launch
+          Recieve a notification when we're live
         </p>
         <form
           name="signup"

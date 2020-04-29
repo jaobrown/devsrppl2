@@ -8,6 +8,7 @@ module.exports = {
           "blue-lighter": "hsl(243, 94%, 70%)",
           blue: "hsl(245, 100%, 27%)",
           "blue-darker": "hsl(231, 53%, 20%)",
+          "brand-white": "#f9f9f9",
         },
       },
       fontFamily: {

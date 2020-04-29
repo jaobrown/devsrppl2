@@ -11,6 +11,7 @@ const SuccessPage = () => (
     <SEO title="Thanks, pal" />
     <section className="relative flex flex-wrap text-center xl:text-left pb-12 xl:pb-0 xl:pl-32 xl:items-center xl:h-screen">
       <img
+        role="presentation"
         src={MobileIllustration}
         alt="Developers are people too illustration"
         className="w-full lg:-mt-20 xl:hidden"
@@ -29,9 +30,10 @@ const SuccessPage = () => (
         </p>
       </div>
       <img
+        role="presentation"
         src={DesktopIllustration}
         alt="Developers are people too illustration"
-        className="hidden xl:block w-1/2 absolute top-0 right-0"
+        className="hidden xl:block w-1/2 absolute bottom-0 right-0 transform translate-y-10"
       />
     </section>
   </Layout>
