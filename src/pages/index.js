@@ -10,12 +10,15 @@ const IndexPage = () => (
   <Layout>
     <SEO title="🤘" />
     <section className="relative flex flex-wrap text-center xl:text-left pb-32 xl:pb-0 xl:pl-32 xl:items-center xl:h-screen">
-      <img
-        src={MobileIllustration}
-        alt="Developers are people too illustration"
-        className="w-full lg:-mt-20 xl:hidden"
-      />
-      <div className="mt-8 lg:mt-16 xl:mt-0 w-full container px-8 sm:max-w-lg sm:mx-auto lg:max-w-2xl xl:max-w-xl xl:mx-0">
+      <div className="w-screen  lg:-mt-20 xl:hidden">
+        <img
+          src={MobileIllustration}
+          alt="Developers are people too illustration"
+          className="w-full h-auto mx-auto"
+          role="presentation"
+        />
+      </div>
+      <div className="mt-8 lg:mt-16 xl:mt-0 w-full container px-8 sm:max-w-lg sm:mx-auto lg:max-w-xl xl:max-w-xl xl:mx-0">
         <h1 className="font-mono font-bold tracking-widest uppercase text-brand-blue-lighter sm:text-lg lg:text-3xl xl:text-base">
           coming soon
         </h1>
@@ -25,14 +28,14 @@ const IndexPage = () => (
           className="block mt-5 h-auto w-full mx-auto xl:mx-0 xl:max-w-sm"
         />
         <p className="mt-6 text-sm sm:mt-8 font-mono text-brand-gray leading-5 lg:mt-10 xl:mt-4 lg:text-xl lg:leading-8 xl:text-base xl:leading-6 xl:max-w-sm">
-          There's a barrier between developers and the teams around us. Lets
+          There's a barrier between developers and the teams around us. Let's
           knock it down.
         </p>
         <h2 className="mt-10 font-bold text-brand-blue text-2xl sm:text-3xl lg:text-4xl lg:mt-16 xl:mt-10 xl:text-xl">
           Join the community
         </h2>
         <p className="block text-sm text-brand-gray  mt-1 font-mono lg:text-lg xl:text-base">
-          Recieve a notification when we're live
+          Recieve a notification when we're live.
         </p>
         <form
           name="signup"
@@ -48,7 +51,7 @@ const IndexPage = () => (
             <input
               type="email"
               name="email"
-              className="bg-white focus:outline-none focus:shadow-outline border-4 border-brand-teal rounded-tl-sm rounded-bl-sm h-12 px-4 block w-full appearance-none leading-normal font-mono text-sm"
+              className="bg-white focus:outline-none focus:shadow-outline border-4 border-brand-teal rounded-tl-sm rounded-bl-sm rounded-br-none rounded-tp-none h-12 px-4 block w-full appearance-none leading-normal font-mono text-sm"
               placeholder="john@example.com"
             />
           </label>
