@@ -51,13 +51,13 @@ const IndexPage = () => (
             <input
               type="email"
               name="email"
-              className="bg-white focus:outline-none focus:shadow-outline border-4 border-brand-teal rounded-tl-sm rounded-bl-sm rounded-br-none rounded-tp-none h-12 px-4 block w-full appearance-none leading-normal font-mono text-sm"
+              className="bg-white focus:outline-none focus:shadow-outline border-4 border-brand-teal rounded-tl-sm rounded-bl-sm rounded-br-none rounded-tr-none h-12 px-4 block w-full appearance-none leading-normal font-mono text-sm"
               placeholder="john@example.com"
             />
           </label>
           <button
             type="submit"
-            className="h-12 bg-brand-teal rounded-tr-sm rounded-br-sm text-center px-4 text-brand-blue uppercase font-bold tracking-widest text-xs xl:px-8"
+            className="h-12 bg-brand-teal rounded-tr-sm rounded-br-sm rounded-tl-none rounded-bl-none text-center px-4 text-brand-blue uppercase font-bold tracking-widest text-xs xl:px-8"
           >
             sign&nbsp;up
           </button>
