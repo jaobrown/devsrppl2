@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Developers are People Too`,
-    description: `Website for Developers are People Too`,
+    description: `There's a barrier between developers and the teams around us. Let's
+    knock it down.`,
     author: `@jaobrown`,
   },
   plugins: [
