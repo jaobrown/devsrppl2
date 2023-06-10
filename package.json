@@ -5,7 +5,7 @@
   "version": "0.1.1",
   "author": "Jared Brown <jared@kodastudio.co>",
   "dependencies": {
-    "gatsby": "^2.20.36",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.3.5",
     "gatsby-plugin-manifest": "^2.3.7",
     "gatsby-plugin-offline": "^3.1.5",
